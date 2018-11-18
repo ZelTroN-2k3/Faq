@@ -21,8 +21,8 @@
 		<br>
 
 		<p>
-			&raquo; {l s='Bug report on GitHub only' mod='faq'} : <a href="https://github.com/xanou/faq" target="_blank">https://github.com/xanou/faq</a><br>
-			&nbsp;&nbsp;&nbsp;{l s='For any bug report, please follow the following process' mod='faq'} : <a href="https://github.com/xanaxilovsky/faq/graphs/contributors" target="_blank">https://github.com/xanaxilovsky/faq/graphs/contributors</a>
+			&raquo; {l s='Bug report on GitHub only' mod='faq'} : <a href="https://github.com/ZelTroN-2k3/Faq" target="_blank">https://github.com/ZelTroN-2k3/Faq</a><br>
+			&nbsp;&nbsp;&nbsp;{l s='For any bug report, please follow the following process' mod='faq'} : <a href="https://github.com/ZelTroN-2k3/Faq/graphs/contributors" target="_blank">https://github.com/ZelTroN-2k3/Faq/graphs/contributors</a>
 		</p>
 		<br>
 
