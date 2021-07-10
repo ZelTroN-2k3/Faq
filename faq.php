@@ -471,5 +471,14 @@ class faq extends Module
         $this->_clearCache('faq.tpl');
     }
 	
-   
+    public function gettitle()
+    {
+        return strtoupper($this->name);
+    }	
+
+    public function getlink()
+    {
+    	$link = Context::getContext()->link;
+        return $link->getModuleLink($this->name,$this->name.'page');
+    }   
 }
