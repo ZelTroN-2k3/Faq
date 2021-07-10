@@ -57,7 +57,10 @@ class faq extends Module
         $this->description = $this->l('This module allows you to create a page to answer frequently asked questions.');
         
         $this->confirmUninstall = $this->l('Are you sure you want to uninstall?');
-        
+	    
+	if (!Configuration::get('faq')) {
+            $this->warning = $this->l('No name provided');
+        }     
     }
     
     /**
