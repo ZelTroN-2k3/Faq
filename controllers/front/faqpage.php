@@ -12,6 +12,6 @@ class faqfaqpageModuleFrontController extends ModuleFrontController
         $this->context->controller->addCSS($this->path.'views/css/faq.css', 'all');
         $faq = Db::getInstance()->executeS('SELECT * FROM '._DB_PREFIX_.'faq_lang where id_lang='.$this->context->language->id);
         $this->context->smarty->assign('faqs', $faq);
-		$this->setTemplate('faq.tpl');
+	$this->setTemplate('module:faq/views/templates/front/faq.tpl');
 	}
-}
+}
